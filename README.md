@@ -26,3 +26,19 @@ How
 如果你是其他系统，确认你装好了ffmpeg之后，需要自己编译SILK解码库。
 
 Based on the great work done By Gabriel B. Nunes (gabriel@kronopath.net) and Nicodemo Gawronski (nico@deftlinux.net)
+
+How to Compile decoder
+----------------------
+
+```
+git clone git@github.com:kn007/silk-v3-decoder.git
+cd silk-v3-decoder/silk
+make
+```
+
+How to use with the decoder
+---------
+
+```
+python wechat2mp3.py -s the_coder_path the_wechat_silk_file_path
+```
